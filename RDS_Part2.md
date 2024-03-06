@@ -1,6 +1,8 @@
 # RDS on AWS - Creating RDS
 We discussed about pros and cons of RDS and whether to use it or not [here](https://eightplabs.com/aws-rds-when-to-shake-hands-and-when-to-ignore)
 
+If you made up your mind to use it then this blog covers step by step guide to create and use RDS.
+
 First, you'll need to choose from various database engines like MySQL, PostgreSQL, SQL Server, Oracle, and MariaDB for your RDS instance. Then, select predefined templates suitable for production, development/testing, or utilize the Free Tier RDS setup. 
 
 
