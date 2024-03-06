@@ -52,3 +52,27 @@
 - It is designed for read-heavy database workloads that require high throughput and low latency for read operations.
 - Utilizes replicas with optimized configurations to offload read traffic from the primary database instance.
 - Improves overall database performance and scalability by distributing read requests across multiple replicas.
+
+
+### Should I go for it?
+
+#### YES!
+
+- Want to move faster
+- You lack manpower/time to manage DB
+- Money is not a constraint
+- Want to easily get many NFRs like backup/restore, redundancy, failover etc. with the click of a button
+
+### No!
+
+- Well, the biggest challenge is cost -if you are short on money, then RDS can start burning your reserve sooner than expected
+- You are a techie and can do a bit of hand dirty when needed
+- Still in POC mode and NFR like backup/restore, and failover are not that crucial for you
+- Once DB is up, your interaction with it will be minimal (Minimal usage and less data so need of tuning etc.)
+
+
+Wait for the next blog to have detailed instructions on how to create an RDS DB in AWS
+
+
+
+
