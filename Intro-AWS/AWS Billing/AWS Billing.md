@@ -25,7 +25,7 @@
 
 
 ## AWS Free Tier
-![alt_text](images/image1.png "image_tooltip")
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/AWS%20Billing/AWS-Billing-Images/0.png?raw=true)
 
 
 
@@ -62,7 +62,7 @@ Eligible services may vary by region and certain services may offer extended fre
 
 
 * The AWS Billing and Cost Management Console provides a dashboard for monitoring and managing your spending and usage of services.
-![alt_text](images/image2.png "image_tooltip")
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/AWS%20Billing/AWS-Billing-Images/1.png?raw=true)
 
 It offers an overview of your current month's spending such as: 
 
@@ -97,7 +97,7 @@ For example:
 
 
             
-![alt_text](images/image3.png "image_tooltip")
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/AWS%20Billing/AWS-Billing-Images/2.png?raw=true)
 
 
 
@@ -115,7 +115,7 @@ For example:
 
 
 
-![alt_text](images/image4.png "image_tooltip")
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/AWS%20Billing/AWS-Billing-Images/3.png?raw=true)
 
 
 * Customize the view by selecting different periods, services, regions, instance types, etc.
@@ -149,7 +149,7 @@ For example:
 
 
     
-![alt_text](images/image5.png "image_tooltip")
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/AWS%20Billing/AWS-Billing-Images/4.png?raw=true)
 
 
 
@@ -162,7 +162,7 @@ For example:
 
 
 
-![alt_text](images/image6.png "image_tooltip")
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/AWS%20Billing/AWS-Billing-Images/5.png?raw=true)
 
 
 
@@ -186,14 +186,14 @@ For example:
 ## Setting Budgets
 
 
-![alt_text](images/image7.png "image_tooltip")
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/AWS%20Billing/AWS-Billing-Images/6.png?raw=true)
 
 
 
 ### Creating AWS Budgets to Monitor Spending
 
 
-![alt_text](images/image8.png "image_tooltip")
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/AWS%20Billing/AWS-Billing-Images/7.png?raw=true)
 
 
 
@@ -218,7 +218,7 @@ For example:
 
 
 
-![alt_text](images/image9.png "image_tooltip")
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/AWS%20Billing/AWS-Billing-Images/8.png?raw=true)
 
 
 
@@ -236,7 +236,7 @@ For example:
 ### Defining Billing Thresholds for Alerts
 
 
-![alt_text](images/image10.png "image_tooltip")
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/AWS%20Billing/AWS-Billing-Images/9.png?raw=true)
 
 
 
@@ -288,7 +288,7 @@ For example:
 ### Setting Up Budgets and Cost Allocation Tags
 
 
-![alt_text](images/image11.png "image_tooltip")
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/AWS%20Billing/AWS-Billing-Images/10.png?raw=true)
 
 
 
