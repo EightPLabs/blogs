@@ -1,1 +1,0 @@
-AWS Global Infrastructure Images
