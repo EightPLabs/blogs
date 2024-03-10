@@ -4,7 +4,7 @@
 As a leading cloud service provider, Amazon Web Services (AWS) has established a global network to run and manage cloud services and support worldwide. Currently, there are 33 AWS regions with 105 available zones and it continues to expand with an announced plan of 4 additional zones with 12 new available zones across the globe.
 
 
-![alt_text](images/image1.png "image_tooltip")
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/Global%20Infra/AWS_Global_Infra_Images/image-000.png?raw=true)
 
 
  This blog will explore the fundamental components of AWS Global infrastructure like Data centers, regions, and Availability Zones (AZs). 
@@ -28,7 +28,9 @@ As a leading cloud service provider, Amazon Web Services (AWS) has established a
 * Each region is isolated, ensuring data remains within the chosen region.
 * Regions consist of multiple data centers with high-speed private networking.
 * Various cloud services are available in each region, including computing, storage, databases, and networking.
-![alt_text](images/image2.png "image_tooltip")
+
+  
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/Global%20Infra/AWS_Global_Infra_Images/image-001.png?raw=true)
 
 * These services are designed to be durable, redundant, and capable of failing over to backup services within the same region in the event of a disaster. 
 
@@ -43,7 +45,7 @@ As a leading cloud service provider, Amazon Web Services (AWS) has established a
 * AWS regions provide security isolation containing the impact of security incidents within specific geographic boundaries.
 
 
-![alt_text](images/image3.png "image_tooltip")
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/Global%20Infra/AWS_Global_Infra_Images/image-002.png?raw=true)
 
 
 Depending on the application scope and requirements of the user, they may choose to operate in one or more regions at a time. Using multiple regions for the application deployment will improve its reliability and availability. AWS offers services like Route 53 for geographically load-balancing application stacks hosted in different regions.
@@ -59,14 +61,14 @@ Depending on the application scope and requirements of the user, they may choose
 * The purpose is to enhance application and service availability and reliability.
 
 
-![alt_text](images/image4.png "image_tooltip")
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/Global%20Infra/AWS_Global_Infra_Images/image-003.png?raw=true)
 
 
 
 ### AZ Balancing and Distribution of Resources
 
 
-![alt_text](images/image5.png "image_tooltip")
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/Global%20Infra/AWS_Global_Infra_Images/image-004.png?raw=true)
 
 
 
@@ -86,7 +88,7 @@ Depending on the application scope and requirements of the user, they may choose
 * Applications are designed to operate across multiple Availability Zones for high availability.
 
     
-![alt_text](images/image6.png "image_tooltip")
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/Global%20Infra/AWS_Global_Infra_Images/image-005.png?raw=true)
 
 
 * Key infrastructure services like VPC (Virtual Private Cloud), ELB, EC2, and Auto Scaling are deployed across multiple Availability Zones.
@@ -155,7 +157,7 @@ AWS services may not be uniformly accessible across all AWS regions with variati
  
 
 
-![alt_text](images/image7.png "image_tooltip")
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/Global%20Infra/AWS_Global_Infra_Images/image-006.png?raw=true)
 
 
 
@@ -177,7 +179,7 @@ AWS services may not be uniformly accessible across all AWS regions with variati
 
 
 ### 
-![alt_text](images/image8.png "image_tooltip")
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/Global%20Infra/AWS_Global_Infra_Images/image-007.png?raw=true)
 
 
 
@@ -217,7 +219,7 @@ The Services offered at each edge are
 * Its primary goal is to reduce latency and provide fast access to content.
 
     
-![alt_text](images/image9.png "image_tooltip")
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/Global%20Infra/AWS_Global_Infra_Images/image-008.png?raw=true)
 
 
 * Efficiently delivers web pages, images, videos, and other static or dynamic assets globally.
