@@ -33,14 +33,14 @@ These are the prerequisites for creating RDS in the AWS management console
 * Choose a region for deploying your RDS. For this tutorial, we are choosing the Mumbai region. 
 
 
-![alt_text](https://github.com/EightPLabs/blogs/blob/main/Images-RDS/image-000%20(1).png)
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-000%20(1).png?raw=true)
 
 
 
 ### Step 1: Sign in to the AWS management console, navigate to the RDS dashboard, and click on **_Create Database_**.
 
 
-![alt_text](https://github.com/EightPLabs/blogs/blob/main/Images-RDS/image-001%20(1).png)
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-001%20(1).png?raw=true)
 
 
 
@@ -54,7 +54,7 @@ There are two options available, such as
 * **Easy Create:** This method offers recommended best-practice configurations for quick deployment, with pre-set settings optimized for common use cases, while still allowing flexibility to change certain options post-creation if needed.
 
 
-![alt_text](https://github.com/EightPLabs/blogs/blob/main/Images-RDS/image-002%20(1).png)
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-002%20(1).png?raw=true)
 
 
 Select a method that is most suitable for your use case. In this guide, Let us choose the default **_Standard Create method_**.
@@ -75,7 +75,7 @@ AWS console offers six types of database engines such as
 * **IBM Db2:** IBM's RDBMS with advanced analytics and integration capabilities.
 
 
-![alt_text](https://github.com/EightPLabs/blogs/blob/main/Images-RDS/image-003%20(1).png)
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-003%20(1).png?raw=true)
 
 
 Choose an engine that is adaptable for your application. In this guide, Let us select the default **_PostgreSQL _**database and its default engine version.
@@ -101,7 +101,7 @@ AWS offers 3 templates for creating RDS. They are
 
 
 
-![alt_text](https://github.com/EightPLabs/blogs/blob/main/Images-RDS/image-004.png)
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-004.png?raw=true)
 
 
 For this guide, we will be choosing a Free tier template. In this template, most of the AWS services for optimizing the RDS are restricted.
@@ -114,7 +114,7 @@ For this guide, we will be choosing a Free tier template. In this template, most
 * **DB instance identifier:** This is a unique name for your DB instance within your AWS account and region. It must be 1 to 60 alphanumeric characters or hyphens. 
 
 
-![alt_text](https://github.com/EightPLabs/blogs/blob/main/Images-RDS/image-005.png)
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-005.png?raw=true)
 
 
 
@@ -122,7 +122,7 @@ For this guide, we will be choosing a Free tier template. In this template, most
 * **Master username:** This is the login ID for the master user of your DB instance.
 
 
-![alt_text](https://github.com/EightPLabs/blogs/blob/main/Images-RDS/image-006.png)
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-006.png?raw=true)
 
 
 
@@ -131,7 +131,7 @@ For this guide, we will be choosing a Free tier template. In this template, most
 * Create a master password for the master user of your DB instance and confirm it.
 
 
-![alt_text](https://github.com/EightPLabs/blogs/blob/main/Images-RDS/image-007.png)
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-007.png?raw=true)
 
 
 
@@ -148,7 +148,7 @@ AWS RDS allows you to select the type of virtual machine (instance) for your dat
 In the Free tier template, only the Burstable classes are available.
 
 
-![alt_text](https://github.com/EightPLabs/blogs/blob/main/Images-RDS/image-008.png)
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-008.png?raw=true)
  
 
 
@@ -181,7 +181,7 @@ There are 4 types of storage types available in the RDS storage configuration.
 For this guide let us choose **_General Purpose SSD (gp2)._**
 
 
-![alt_text](https://github.com/EightPLabs/blogs/blob/main/Images-RDS/image-009.png)
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-009.png?raw=true)
 
 
 
@@ -192,7 +192,7 @@ For this guide let us choose **_General Purpose SSD (gp2)._**
 * **Allocated storage:** This specifies the initial amount of storage allocated for your database instance, measured in gigabytes (GiB). The minimum value is 20 GiB, and the maximum value is 6,144 GiB.
 
 
-![alt_text](https://github.com/EightPLabs/blogs/blob/main/Images-RDS/image-010.png)
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-010.png?raw=true)
 
 
 
@@ -204,7 +204,7 @@ For this guide let us choose **_General Purpose SSD (gp2)._**
 * **Maximum storage threshold:** This specifies the maximum threshold for storage autoscaling.
 
 
-![alt_text](https://github.com/EightPLabs/blogs/blob/main/Images-RDS/image-011.png)
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-011.png?raw=true)
 
 
 
@@ -230,7 +230,7 @@ In connectivity of the RDS, there are two types of computer resources
 * Choose this option to establish a connection to an EC2 compute resource for this database. This setting automatically adjusts connectivity settings to allow the compute resource to connect to the database.
 
 
-![alt_text](https://github.com/EightPLabs/blogs/blob/main/Images-RDS/image-012.png)
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-012.png?raw=true)
 
 Choose the appropriate option for your application. 
 
@@ -245,7 +245,7 @@ Choose the appropriate option for your application.
 * Select the VPC where you want to deploy your database instance. The VPC defines the virtual networking environment for the DB instance. The default VPC typically includes subnets across multiple availability zones for high availability.
 
 
-![alt_text](https://github.com/EightPLabs/blogs/blob/main/Images-RDS/image-013.png)
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-013.png?raw=true)
 
 
 
@@ -256,7 +256,7 @@ Choose the appropriate option for your application.
 * **Default:** Choose the DB subnet group that defines the subnets and IP ranges the DB instance can use within the selected VPC. This ensures proper network isolation and security for the database instance.
 
 
-![alt_text](https://github.com/EightPLabs/blogs/blob/main/Images-RDS/image-014.png)
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-014.png?raw=true)
 
 
 
@@ -276,7 +276,7 @@ Choose the appropriate option for your application.
 Since we are creating this RDS learning purpose choose option **_NO_**.
 
 
-![alt_text](https://github.com/EightPLabs/blogs/blob/main/Images-RDS/image-015.png)
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-015.png?raw=true)
 
 
 
@@ -294,7 +294,7 @@ Since we are creating this RDS learning purpose choose option **_NO_**.
 
 
 
-![alt_text](https://github.com/EightPLabs/blogs/blob/main/Images-RDS/image-016.png)
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-016.png?raw=true)
 
 
 
@@ -313,7 +313,7 @@ Choose an availability zone where the database will be deployed.
 
 
 
-![alt_text](https://github.com/EightPLabs/blogs/blob/main/Images-RDS/image-017.png)
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-017.png?raw=true)
 
 
 
@@ -324,7 +324,7 @@ Choose an availability zone where the database will be deployed.
 
 
 
-![alt_text](https://github.com/EightPLabs/blogs/blob/main/Images-RDS/image-018.png)
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-018.png?raw=true)
 
 
 
@@ -350,7 +350,7 @@ There are 3 types of authentication options available for AWS RDS
 **_Password authentication_** will be selected as default.
 
 
-![alt_text](https://github.com/EightPLabs/blogs/blob/main/Images-RDS/image-019.png)
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-019.png?raw=true)
 
 
 
@@ -369,7 +369,7 @@ Performance Insights provides a comprehensive view of your database's performanc
 * This setting determines how long Performance Insights data is retained. In the free tier, Performance Insights data is retained for 7 days. After this period, the data is automatically purged. You can adjust this period based on your retention requirement.
 
 
-![alt_text](https://github.com/EightPLabs/blogs/blob/main/Images-RDS/image-020.png)
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-020.png?raw=true)
 
 
 
@@ -380,7 +380,7 @@ Performance Insights provides a comprehensive view of your database's performanc
 * Enabling Enhanced Monitoring is useful for monitoring how different processes or threads utilize the CPU and identifying insights about RDS performance.
 
 
-![alt_text](https://github.com/EightPLabs/blogs/blob/main/Images-RDS/image-021.png)
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-021.png?raw=true)
 
 
 
@@ -406,7 +406,7 @@ Performance Insights provides a comprehensive view of your database's performanc
 * **Backup replication:** Enables replication of backups in another AWS Region for disaster recovery purposes.
 
 
-![alt_text](https://github.com/EightPLabs/blogs/blob/main/Images-RDS/image-022.png)
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-022.png?raw=true)
 
 
 
@@ -417,7 +417,7 @@ Performance Insights provides a comprehensive view of your database's performanc
 * **Enable encryption:** Activates encryption for the database instance. The default AWS Key Management Service (KMS) key "aws/rds" is used for encryption.
 
 
-![alt_text](https://github.com/EightPLabs/blogs/blob/main/Images-RDS/image-023.png)
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-023.png?raw=true)
 
 
 
@@ -428,7 +428,7 @@ Performance Insights provides a comprehensive view of your database's performanc
 * Select the log types to publish to Amazon CloudWatch Logs: Specifies which types of logs (e.g., PostgreSQL log, upgrade log) should be published to CloudWatch Logs for monitoring and analysis.
 
 
-![alt_text](https://github.com/EightPLabs/blogs/blob/main/Images-RDS/image-024.png)
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-024.png?raw=true)
 
 
 
@@ -440,7 +440,7 @@ Performance Insights provides a comprehensive view of your database's performanc
 * **Maintenance window:** Specifies the period during which pending modifications or maintenance tasks are applied to the database instance. No specific window preference is set.
 
 
-![alt_text](https://github.com/EightPLabs/blogs/blob/main/Images-RDS/image-025.png)
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-025.png?raw=true)
 
 
 
@@ -451,14 +451,14 @@ Performance Insights provides a comprehensive view of your database's performanc
 * **Enable deletion protection:** Prevents accidental deletion of the database instance by enabling deletion protection. While enabled, you cannot delete the database instance.
 
 
-![alt_text](https://github.com/EightPLabs/blogs/blob/main/Images-RDS/image-026.png)
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-026.png?raw=true)
 
 
 
 ### Step 12: Billing estimates
 
 
-![alt_text](https://github.com/EightPLabs/blogs/blob/main/Images-RDS/image-027.png)
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-027.png?raw=true)
 
 
 
@@ -473,7 +473,7 @@ Performance Insights provides a comprehensive view of your database's performanc
 
 
 ### 
-![alt_text](https://github.com/EightPLabs/blogs/blob/main/Images-RDS/image-028.png)
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-028.png?raw=true)
 
 
 
@@ -487,11 +487,11 @@ Performance Insights provides a comprehensive view of your database's performanc
 * Click on the **_Actions _** and choose **_Delete_** to initiate the deletion process.
 
 
-![alt_text](https://github.com/EightPLabs/blogs/blob/main/Images-RDS/image-029.png)
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-029.png?raw=true)
 
 
 
-![alt_text](https://github.com/EightPLabs/blogs/blob/main/Images-RDS/image-030.png)
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-030.png?raw=true)
 
 
 
@@ -501,4 +501,4 @@ Performance Insights provides a comprehensive view of your database's performanc
 * Review your billing statements to ensure that the resources have been successfully deleted and are no longer accruing charges.
 
 
-![alt_text](https://github.com/EightPLabs/blogs/blob/main/Images-RDS/image-031.png)
+![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-031.png?raw=true)
