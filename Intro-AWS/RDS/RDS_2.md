@@ -472,7 +472,6 @@ Performance Insights provides a comprehensive view of your database's performanc
 ### Step  13: After selecting all the options that satisfy the requirements of your application click on **_Create Database_**.
 
 
-### 
 ![alt_text](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/RDS/Images_RDS/image-028.png?raw=true)
 
 
