@@ -59,7 +59,7 @@ In nutshell, AWS IAM tries to answer:
 *   WHO → CAN ACCESS → WHAT?
     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1670069262802/p_k15aIA7.jpg align="left")
+![](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/IAM-AWS/IAM-Images/iam1.jpg?raw=true)
 
 Resource, user, and group are pretty straightforward, the crux of IAM is policies, how we define them, and then how we associate them with users, applications, or groups. Let’s dive a bit deeper into policies:
 
@@ -67,7 +67,7 @@ There are many more elaborate concepts but then I will not cover them here, I wi
 
 1.  Sign up for AWS, if there is no existing account.
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1670071788605/Kr08vvWWO.png align="left")
+    ![](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/IAM-AWS/IAM-Images/iam2.png?raw=true)
     
 
 Click on "create a new AWS account" if a first-time user or log in with your account if you already have signed up. Creating a new account is self-explanatory, it will need personal details, and card details so no point in showing it here. Everyone gets a free tier for 1 year, which will be sufficient for most of our experimentations. Also, AWS has [quick labs](https://aws.qwiklabs.com/) which can be used to play around without paying any money.
@@ -109,11 +109,11 @@ Click on "create a new AWS account" if a first-time user or log in with your acc
 
 Let's have quick look at the policy. Search for "IAM" service and select "User groups" from left navigation. Select the created group, for e.g., "s3\_read\_only\_group" and go to the permissions tab. Click on the "+" on the policy as shown below
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1670331744036/31DGy3nzm.png align="left")
+![](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/IAM-AWS/IAM-Images/iam3.png?raw=true)
 
 This will expand the policy as shown here
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1670331777067/5hIs8ZxjI.png align="left")
+![](https://github.com/EightPLabs/blogs/blob/main/Intro-AWS/IAM-AWS/IAM-Images/iam4.png?raw=true)
 
 The policy is very easy to understand,
 
